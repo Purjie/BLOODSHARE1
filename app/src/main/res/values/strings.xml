@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BLOODSHARE</string>
+    <string name="or">OR</string>
+    <string name="register">doesn\'t have account ? <b>Register</b></string>
+    <string name="almost_there">Almost There</string>
+    <string name="desc_almost">Thank you for registering with us. One more\nstep, you need to check your email\nto active your account</string>
+    <string name="verify">Verify</string>
+    <string name="desc_verify">We have send verification code to your email</string>
+    <string name="resendcode">doens\'t get the code? <b>Resend</b></string>
+    <string name="namauser">Purnama Adjie</string>
+    <string name="verify_your_account">Verify Your Account</string>
+    <string name="enter_verification_code_here">enter verification code here</string>
+    <string name="send">SEND</string>
+</resources>

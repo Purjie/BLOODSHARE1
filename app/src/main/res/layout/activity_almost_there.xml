@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightBlue"
+    tools:context=".AlmostThereActivity">
+
+    <TextView
+        android:id="@+id/txt_almost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/almost_there"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:textColor="@color/Background"/>
+
+    <TextView
+        android:id="@+id/txt_desc_almost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/txt_almost"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Background"
+        android:text="@string/desc_almost"/>
+
+    <Button
+        android:id="@+id/btn_almost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_desc_almost"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/verify"
+        android:textColor="@color/Background"
+        android:background="@drawable/costumbutton"/>
+
+</RelativeLayout>
